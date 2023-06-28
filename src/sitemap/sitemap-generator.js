@@ -14,7 +14,7 @@ const Sitemap = require("react-router-sitemap").default;
 
 const generateSitemap = () =>
   new Sitemap(router)
-    .build("https://www.adityavsingh.com")
+    .build("https://saicharanpannala.netlify.app/")
     .save("./public/sitemap.xml");
 
 generateSitemap();

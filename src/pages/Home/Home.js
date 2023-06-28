@@ -79,7 +79,7 @@ const Home = () => {
         <Col>
           <ProfileButton
             logo={<FaFileDownload className={styles.iconSmall} />}
-            href="./resume.html"
+            href=""
           >
             Resume
           </ProfileButton>
@@ -96,4 +96,4 @@ const Home = () => {
 
 export default Home;
 
-// always search before uploading to github adityavsingh
+// always search before uploading to github saicharan
