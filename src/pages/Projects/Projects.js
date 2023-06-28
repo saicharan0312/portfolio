@@ -20,6 +20,7 @@ const Projects = () => {
             <ProjectCard
               key={index}
               title={obj.title}
+              image={obj.imagen}
               content={obj.content}
               gitHubUrl={obj.gitHubUrl}
               liveUrl={obj.liveUrl}

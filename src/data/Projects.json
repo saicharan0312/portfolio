@@ -1,6 +1,7 @@
 [
   {
     "title": "Full Stack web application (Social Web Application)",
+    "imagen" : "Cache",
     "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
     "gitHubUrl": "https://github.com/saicharan0312/frontend",
     "liveUrl": null,
@@ -14,6 +15,7 @@
   },
   {
     "title": "Social  Applications Backend",
+    "imagen" : "Cache",
     "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
     "gitHubUrl": "https://github.com/saicharan0312/backend_Socialapp",
     "liveUrl": null,
@@ -27,6 +29,7 @@
   },
   {
     "title": "Implementation of Cache memory Design",
+    "imagen" : "Cache",
     "content": "How cache is stored in real time",
     "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp1",
     "liveUrl": null,
@@ -38,6 +41,7 @@
   },
   {
     "title": "Branch Predictor Simulator design (C++ and Verilog)",
+    "imagen" : "BranchPredictor",
     "content": "How branch predictor is take or not taken time to time",
     "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
     "liveUrl": null,
@@ -49,6 +53,7 @@
   },
   {
     "title": "Web application for social responsibility",
+    "imagen" : "Cache",
     "content": "Django full stack web application used for raising funds or social event",
     "gitHubUrl": "https://github.com/saicharan0312/project",
     "liveUrl": null,
@@ -62,6 +67,7 @@
   },
   {
     "title": "Drowsiness Detection using Machine learning Algorithm",
+    "imagen" : "Drowsiness",
     "content": "Real time drowsiness detection using CNN when the camera is running all the time",
     "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
     "liveUrl": null,
@@ -77,6 +83,7 @@
   },
   {
     "title": "Breast Cancer detection using CNN",
+    "imagen" : "Cache",
     "content": "How cache is stored in real time",
     "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
     "liveUrl": null,

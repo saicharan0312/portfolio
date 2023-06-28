@@ -10,7 +10,6 @@ import {
 import { Container, Row, Col } from "react-bootstrap";
 import { ImageHolder, ProfileButton } from "../../components";
 import {
-  FallbackProfessionalHeadshot,
   ProfilePicture,
 } from "../../assets";
 import styles from "./Home.module.css";
@@ -25,7 +24,6 @@ const Home = () => {
       <Row>
         <ImageHolder
           primarySource={ProfilePicture}
-          secondarySource={FallbackProfessionalHeadshot}
           alt="Profile Picture of Sai Charan Reddy Pannala"
           className={styles.professionalHeadshot}
         />

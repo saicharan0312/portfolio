@@ -8,88 +8,22 @@ const assets = {
   UCF_LOGO: (
     <ImageHolder
       primarySource={Asset.UcfLogo}
-      secondarySource={Asset.FallbackCICSLogo}
-      alt="Manning CICS"
+      alt="UCF"
       className={`card-img ${styles.image}`}
     />
   ),
   PHENOMPEOPLE_LOGO: (
     <ImageHolder
       primarySource={Asset.PhenompeopleLogo}
-      secondarySource={Asset.FallbackBUILDUMassLogo}
-      alt="BUILD UMass"
+
+      alt="Phenompeople"
       className={`card-img ${styles.image}`}
     />
   ),
   OPENTEXT_LOGO: (
     <ImageHolder
       primarySource={Asset.OpentextLogo}
-      secondarySource={Asset.FallbackCICSoftLogo}
-      alt="CICSoft"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  HackUMass: (
-    <ImageHolder
-      primarySource={Asset.HackUMassLogo}
-      secondarySource={Asset.FallbackHackUMassLogo}
-      alt="HackUMass"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  ILinkDigital: (
-    <ImageHolder
-      primarySource={Asset.ILinkDigitalLogo}
-      secondarySource={Asset.FallbackILinkDigitalLogo}
-      alt="iLink Digital Inc."
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  InnovationM: (
-    <ImageHolder
-      primarySource={Asset.InnovationMLogo}
-      secondarySource={Asset.FallbackInnovationMLogo}
-      alt="InnovationM Mobile & Web Technologies"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  VirtuBox: (
-    <ImageHolder
-      primarySource={Asset.VirtuBoxLogo}
-      secondarySource={Asset.FallbackVirtuBoxLogo}
-      alt="VirtuBox Infotech"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  UMass: (
-    <ImageHolder
-      primarySource={Asset.UMassLogo}
-      secondarySource={Asset.FallbackUMassLogo}
-      alt="University of Massachusetts Amherst"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  DPSRKP: (
-    <ImageHolder
-      primarySource={Asset.DPSRKPLogo}
-      secondarySource={Asset.FallbackDPSRKPLogo}
-      alt="Delhi Public School, R. K. Puram"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  "TEDx@DPSRKP": (
-    <ImageHolder
-      primarySource={Asset.TEDxLogo}
-      secondarySource={Asset.FallbackTEDxLogo}
-      alt="TEDxYouth@DPSRKPuram"
-      className={`card-img ${styles.image}`}
-    />
-  ),
-  Aeross: (
-    <ImageHolder
-      primarySource={Asset.AerossLogo}
-      secondarySource={Asset.FallbackAerossLogo}
-      alt="Aerospace Society, D.P.S. R. K. Puram"
+      alt="opentext"
       className={`card-img ${styles.image}`}
     />
   ),

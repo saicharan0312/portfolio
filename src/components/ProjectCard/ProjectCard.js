@@ -20,30 +20,27 @@ import {
 import styles from "./ProjectCard.module.css";
 
 const assets = {
-  "Perpetual Crusades": (
+  "Drowsiness": (
     <ImageHolder
-      primarySource={Asset.PerpetualCrusades}
-      secondarySource={Asset.FallbackPerpetualCrusades}
+      primarySource={Asset.DrowsinessDetection}
       alt="Perpetual Crusades"
       className="card-img"
     />
   ),
-  "Project URefer": (
+  "Cache": (
     <ImageHolder
-      primarySource={Asset.ProjectURefer}
-      secondarySource={Asset.FallbackProjectURefer}
-      alt="Project URefer"
+      primarySource={Asset.CacheImage}
+      alt="Perpetual Crusades"
       className="card-img"
     />
   ),
-  "HackUMass Website": (
+  "BranchPredictor": (
     <ImageHolder
-      primarySource={Asset.HackUMassWebsite}
-      secondarySource={Asset.FallbackHackUMassWebsite}
-      alt="HackUMass Website"
+      primarySource={Asset.BranchPredictor}
+      alt="Perpetual Crusades"
       className="card-img"
     />
-  ),
+  )
 };
 
 const icons = {
@@ -76,7 +73,7 @@ const ProjectCard = (props) => {
   const handleModalClose = () => setModalDisplay(false);
   return (
     <Card className={styles.container}>
-      {assets[props.title]}
+      {assets[props.image]}
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
