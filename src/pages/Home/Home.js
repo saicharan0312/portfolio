@@ -77,7 +77,7 @@ const Home = () => {
         <Col>
           <ProfileButton
             logo={<FaFileDownload className={styles.iconSmall} />}
-            href=""
+            href="./resume.pdf"
           >
             Resume
           </ProfileButton>

@@ -40,7 +40,28 @@ const assets = {
       alt="Perpetual Crusades"
       className="card-img"
     />
-  )
+  ),
+  "InitialPage": (
+    <ImageHolder
+      primarySource={Asset.InitialPage}
+      alt="Perpetual Crusades"
+      className="card-img"
+    />
+  ),
+  "BreastCancer": (
+    <ImageHolder
+      primarySource={Asset.BreasCancerPage}
+      alt="Perpetual Crusades"
+      className="card-img"
+    />
+  ),
+  "PlacesPage": (
+    <ImageHolder
+      primarySource={Asset.PlacesPage}
+      alt="Perpetual Crusades"
+      className="card-img"
+    />
+  ),
 };
 
 const icons = {

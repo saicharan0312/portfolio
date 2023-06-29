@@ -1,7 +1,7 @@
 [
   {
     "title": "Full Stack web application (Social Web Application)",
-    "imagen" : "Cache",
+    "imagen" : "InitialPage",
     "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
     "gitHubUrl": "https://github.com/saicharan0312/frontend",
     "liveUrl": null,
@@ -15,7 +15,7 @@
   },
   {
     "title": "Social  Applications Backend",
-    "imagen" : "Cache",
+    "imagen" : "PlacesPage",
     "content": "Social Networking portal which is used to post location photos on web portal to show their visits",
     "gitHubUrl": "https://github.com/saicharan0312/backend_Socialapp",
     "liveUrl": null,
@@ -23,7 +23,8 @@
       "Developed a web application where a person post the places he/she visited. I have used React JS for front end, Mongo DB for banckend developemet, Express JS as middel ware and Node JS.",
       "Created a high level Authentication with bcryptJS when Hashning the password inorder to hide the passoword from who have access to databases.",
       "To Uplaod images, user must login and post, have access to it. where other user cannot have access to edit or delete it. images are not stored in DataBase but on server and address is stored in DB via Multer.",
-      "To check if the authenticate user is posting any image or editing is checked by jsonwebtoken."
+      "To check if the authenticate user is posting any image or editing is checked by jsonwebtoken.",
+      "view on map is used to show where the map is place is located, I have used mapBox"
     ],
     "techStack": ["React", "Nodejs", "Express", "Mongodb", "Visualstudio"]
   },
@@ -83,7 +84,7 @@
   },
   {
     "title": "Breast Cancer detection using CNN",
-    "imagen" : "Cache",
+    "imagen" : "BreastCancer",
     "content": "How cache is stored in real time",
     "gitHubUrl": "https://github.com/saicharan0312/Advanced-Computer-Architecture/tree/main/mp2",
     "liveUrl": null,

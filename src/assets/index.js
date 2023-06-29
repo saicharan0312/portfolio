@@ -46,6 +46,9 @@ export { default as Leetcode } from './organizations/jpg/leetcod-logo.png';
 export { default as BranchPredictor } from "./projects/jpg/branchpred.png";
 export { default as CacheImage } from "./projects/jpg/cache.png";
 export { default as DrowsinessDetection } from "./projects/jpg/drowsinessDet.png";
+export { default as InitialPage } from "./projects/jpg/initialPage.png";
+export { default as PlacesPage }  from "./projects/jpg/placesPage.png";
+export { default as BreasCancerPage } from "./projects/jpg/breasCancerPage.png";
 
 // profile pricture
 export { default as ProfilePicture } from './personal/jpg/profile-picture.JPG'
