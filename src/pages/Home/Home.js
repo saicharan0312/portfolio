@@ -12,6 +12,7 @@ import { ImageHolder, ProfileButton } from "../../components";
 import {
   ProfilePicture,
 } from "../../assets";
+import Skills from "../Skills/Skills";
 import styles from "./Home.module.css";
 
 const Home = () => {
@@ -55,20 +56,6 @@ const Home = () => {
         </Col>
         <Col>
           <a href="https://leetcode.com/saicharan0312" target="_blank_">
-            {/* <img 
-              src={Leetcode} 
-              className={styles.icon} 
-              style={{ 
-                marginTop : "3px", 
-                width : "35px",
-                height : "33px",
-                padding : "3px",
-                backgroundColor : "white",
-                borderRadius : "3px"
-                styles={{ backgroundColor : "white" }} style={{color:"black"}}
-              }}  
-              alt="leetcode"
-            /> */}
             <SiLeetcode className={styles.icon}/> 
           </a>
         </Col>
@@ -83,11 +70,9 @@ const Home = () => {
           </ProfileButton>
         </Col>
       </Row>
-      {/* <Row style={{ justifyContent: "center", alignItems: "center" }}>
-                <ProfileCard logo={CICSLogo} logoAlt="University of Massachusetts Amherst"> Undergraduate Course Assistant at Manning CICS </ProfileCard>
-                <ProfileCard logo={HackUMassLogo} logoAlt="HackUMass"> Tech + Design Member at HackUMass Organizing Team </ProfileCard>
-                <ProfileCard logo={HackUMassLogo} logoAlt="HackUMass"> Software Developer at HackUMass Organizing Team </ProfileCard>
-            </Row> */}
+      <div style={{ padding : "15px 65px", margin : "10px" }}>
+        <Skills />
+      </div>
     </Container>
   );
 };
