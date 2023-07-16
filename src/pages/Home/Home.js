@@ -17,6 +17,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
+    <React.Fragment>
     <Container
       fluid
       className={styles.container}
@@ -74,6 +75,7 @@ const Home = () => {
         <Skills />
       </div>
     </Container>
+    </React.Fragment>
   );
 };
 

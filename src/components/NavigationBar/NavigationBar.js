@@ -3,6 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import styles from "./NavigationBar.module.css";
 
 const NavigationBar = (props) => {
+  const mail = "(sa041328@ucf.edu) ";
   return (
     <Navbar
       sticky="top"
@@ -16,7 +17,7 @@ const NavigationBar = (props) => {
     >
       <Container fluid>
         <Navbar.Brand style={{ color: "white", fontWeight: "500" }}>
-          Sai Charan Reddy Pannala
+          Sai Charan Reddy Pannala { mail }
         </Navbar.Brand>
         <Navbar.Toggle
           className="ms-auto"

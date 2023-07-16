@@ -6,3 +6,5 @@ export { default as ProfileCard } from "./ProfileCard/ProfileCard";
 export { default as ProjectCard } from "./ProjectCard/ProjectCard";
 export { default as ExperienceCard } from "./ExperienceCard/ExperienceCard";
 export { default as AchievementCard } from "./AchievementCard/AchievementCard";
+export { default as Footer } from "./Footer/Footer";
+export { default as Button } from "./FormElements/ButtonsTypes/Button";

@@ -153,10 +153,12 @@ const Skills = () => {
         <Row>
             {skillsList.map(s => (
                 <Col>
-                    <IconCard key={s.label} src={s.src} />
+                    
+                        <IconCard key={s.label} src={s.src} />
+                    
                 </Col>
             ))}
-        </Row>
+        </Row> 
         {/* <Row>
             <Col>
             {techStack.map((tech, index) => icons[tech])}

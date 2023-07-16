@@ -1,5 +1,5 @@
 import React, { useState, Suspense, lazy } from "react";
-import { NavigationBar } from "./components";
+import { Footer, NavigationBar } from "./components";
 import Loader from "./components/Loader/Loader";
 
 const Home = lazy(() => import("./pages/Home/Home"));
@@ -31,6 +31,7 @@ const App = () => {
     <div className="App">
       <NavigationBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
       <Suspense fallback={Loader()}>{renderSwitch(currentTab)}</Suspense>
+      <Footer />
     </div>
   );
 };
