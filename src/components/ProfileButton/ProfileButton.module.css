@@ -3,6 +3,7 @@
   padding: 0.5em 1em !important;
   display: flex;
   flex-direction: row;
+  color : black
 }
 
 .span {

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   FaFileDownload,
 } from "react-icons/fa";
@@ -16,12 +16,25 @@ import Skills from "../Skills/Skills";
 import styles from "./Home.module.css";
 
 const Home = () => {
+  const [text, setText] = useState(0);
+  const listOfDesignations = [
+    "Full Stack Developer",
+    "Software Engineer",
+    "Student"
+  ];
+  useEffect(() => {
+    const timer = setInterval(() => {
+      var rand = Math.floor(Math.random() * 3);
+      setText(rand);
+    }, 1500);
+    return () => clearInterval(timer);
+  }, []);
   return (
     <React.Fragment>
     <Container
       fluid
       className={styles.container}
-      style={{ backgroundColor: "black"  }}
+      style={{ backgroundColor: "#1c6759"  }}
     >
       <Row>
         <ImageHolder
@@ -39,9 +52,9 @@ const Home = () => {
       </Row>
       <Row>
         <Col>
-          <span className={`${styles.textWhite} ${styles.headingThree}`}>
-            Full Stack Developer, Software Engineer, Student
-          </span>
+          <div className={`${styles.typewriter}`}>
+            <h1>{ listOfDesignations[text] }</h1>
+          </div>
         </Col>
       </Row>
       <Row>
@@ -71,6 +84,13 @@ const Home = () => {
           </ProfileButton>
         </Col>
       </Row>
+      <hr
+        style={{
+        background: "#6F38C5",
+        height: "5px",
+        border: "none",
+        }}
+      />
       <div style={{ padding : "15px 65px", margin : "10px" }}>
         <Skills />
       </div>

@@ -12,7 +12,7 @@ const Footer = () => {
         >
             <div style={{display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
             <SiMicrosoftoutlook className={styles.icon} />
-            <p style={{color:"white", margin:"auto"}}>sa041328@ucf.edu</p>
+            <p style={{color:"black", margin:"auto"}}>sa041328@ucf.edu</p>
             </div>
             {/* <div style={{display:"flex", flexDirection:"row"}}>
             <FaPhone className={styles.icon} />

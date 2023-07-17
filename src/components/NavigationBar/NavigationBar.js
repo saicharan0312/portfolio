@@ -12,17 +12,17 @@ const NavigationBar = (props) => {
       style={{
         padding: "0.5em",
         boxShadow: "0px 2px 8px rgba(0,0,0,0.5)",
-        background: "rgba(36,36,36,1)",
+        background: "#d3cda8",
       }}
     >
       <Container fluid>
-        <Navbar.Brand style={{ color: "white", fontWeight: "500" }}>
+        <Navbar.Brand style={{ color: "black", fontWeight: "500" }}>
           Sai Charan Reddy Pannala { mail }
         </Navbar.Brand>
         <Navbar.Toggle
           className="ms-auto"
           aria-controls="basic-navbar-nav"
-          style={{ color: "white" }}
+          style={{ color: "black" }}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav
