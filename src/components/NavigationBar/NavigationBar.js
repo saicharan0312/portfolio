@@ -17,7 +17,7 @@ const NavigationBar = (props) => {
     >
       <Container fluid>
         <Navbar.Brand style={{ color: "black", fontWeight: "500" }}>
-          Sai Charan Reddy Pannala { mail }
+          Sai Charan Reddy Pannala 
         </Navbar.Brand>
         <Navbar.Toggle
           className="ms-auto"
