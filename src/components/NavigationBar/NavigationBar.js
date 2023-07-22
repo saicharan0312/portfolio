@@ -3,7 +3,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
 import styles from "./NavigationBar.module.css";
 
 const NavigationBar = (props) => {
-  const mail = "(sa041328@ucf.edu) ";
+  // const mail = "(sa041328@ucf.edu) ";
   return (
     <Navbar
       sticky="top"
