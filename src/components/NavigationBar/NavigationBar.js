@@ -5,14 +5,14 @@ import styles from "./NavigationBar.module.css";
 const NavigationBar = (props) => {
   // const mail = "(sa041328@ucf.edu) ";
   return (
+    <>
     <Navbar
       sticky="top"
       variant="dark"
       expand="lg"
       style={{
         padding: "0.5em",
-        boxShadow: "0px 2px 8px rgba(0,0,0,0.5)",
-        background: "#d3cda8",
+        background: "rgb(172 174 175)",
       }}
     >
       <Container fluid>
@@ -84,6 +84,7 @@ const NavigationBar = (props) => {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </>
   );
 };
 

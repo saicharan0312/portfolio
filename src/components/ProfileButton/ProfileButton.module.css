@@ -5,7 +5,12 @@
   flex-direction: row;
   color : black
 }
-
+.button:hover {
+  border: 2px solid #007bff;
+  background-color: whitesmoke;
+  color:#007bff;
+  font-size: 20px;
+}
 .span {
   font-size: 1.25em;
   font-weight: 300;

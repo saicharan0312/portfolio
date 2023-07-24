@@ -15,17 +15,21 @@
 
 .professionalHeadshot {
   height: 12.5em;
-  border: 1px solid #120202;
   border-radius: 4px;
-  padding: 5px;
+  
+  box-shadow: 10px 10px 100px #404040 ;
+}
+.professionalHeadshot:hover {
+  filter: drop-shadow(10px 10px 10px #404040 );
 }
 
 .textWhite {
-  color: black !important;
+  color: #007bff !important;
 }
 
 .headingOne {
   font-size: 2.5em;
+  font-family: sans-serif Arial, Helvetica;
 }
 
 .headingThree {
@@ -38,7 +42,7 @@
 }
 
 .icon:hover {
-  color: black;
+  color: #007bff;
   background-color: white;
   border-radius: 0.125em;
   padding: 5px;
@@ -49,9 +53,15 @@
   font-size: 1.25em !important;
 }
 
+/* .iconSmall:hover {
+  color: #007bff;
+  background-color: #120202;
+} */
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
+  color : rgb(52, 58, 64);
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */

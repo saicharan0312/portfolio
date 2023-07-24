@@ -34,7 +34,7 @@ const Home = () => {
     <Container
       fluid
       className={styles.container}
-      style={{ backgroundColor: "#1c6759"  }}
+      style={{ backgroundColor: "#eaedf0"  }}
     >
       <Row>
         <ImageHolder
@@ -91,7 +91,7 @@ const Home = () => {
         border: "none",
         }}
       />
-      <div style={{ padding : "15px 65px", margin : "10px" }}>
+      <div style={{ padding : "15px 65px", margin : "10px", border:"1px solid black" }}>
         <Skills />
       </div>
     </Container>
