@@ -84,6 +84,15 @@ const Home = () => {
           </ProfileButton>
         </Col>
       </Row>
+      <Row>
+        <Col>
+          <ProfileButton
+            href="https://saicharan0312.github.io/portfolio2/#home"
+          >
+            Link to New Portfolio
+          </ProfileButton>
+        </Col>
+      </Row>
       <hr
         style={{
         background: "#6F38C5",
@@ -102,3 +111,4 @@ const Home = () => {
 export default Home;
 
 // always search before uploading to github saicharan
+// https://saicharan0312.github.io/portfolio2/#home

@@ -1,5 +1,5 @@
 import React, { useState, Suspense, lazy } from "react";
-import { Footer, NavigationBar } from "./components";
+import { NavigationBar } from "./components";
 import Loader from "./components/Loader/Loader";
 import "./index.css";
 
