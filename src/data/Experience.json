@@ -16,7 +16,7 @@
     "logo": "UCF_LOGO"
   },
   {
-    "title": "Product Development Engineer 1",
+    "title": "Software Development Engineer 1",
     "organization": "Phenom People Pvt.Ltd",
     "liveUrl": "https://www.phenom.com/",
     "duration": "September 2020 - December 2021",
@@ -31,6 +31,18 @@
       "Development of company´s internal CI system, providing a comprehensive API for CI/CD."
     ],
     "logo": "PHENOMPEOPLE_LOGO"
+  },
+  {
+    "title": "Product Development Engineer 1",
+    "organization": "Opentext Hyderebad",
+    "liveUrl": "https://www.opentext.com/",
+    "duration": "Spetember 2019 - August 2020",
+    "description": [
+      "Built responsive 10+ web pages and components for company internal purpose using HTML5, JavaScript, ReactJS, Vue.Js and SCSS compiled using yarn build tools.",
+      "Worked in agile environment with weekly stand-ups, kept track of user stories/bugs in GitHub projects information. This process allowed to production to increase by 10% speed and code reduces by 15%.",
+      "written unit tests in Jest for React components. This made production of 100% bug free."
+    ],
+    "logo": "OPENTEXT_LOGO"
   },
   {
     "title": "Product Engineering Intern",
